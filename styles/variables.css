@@ -1,10 +1,19 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
-:root {
-  --accent-font: PressStart2P-Regular; 
-  --main-font: Inter-Variable;
-  --accent-font-weight: 700;
-  --main-text-font-weight: 400;
 
-  --accent-color: gray;
-  --background-color:  white;
+:root {
+  --accent-font: 'PressStart2P-Regular'; 
+  --main-font: 'Inter-Variable';
+ 
+  --post-header-font-weight: 700;
+  --main-text-font-weight: 400;
+  
+  --accent-color: #000;
+  --background-color:  #fff;
+
+  --post_watermark-stroke-color: #e7e7e7;
+  --post_watermark-stroke-weight: 400; 
+
+  --gradient-lines-color: #d3d3d3;
+  --gradient-background-color-start: #e7e7e7;
+  --gradient-background-color-end: #1a1a1a;
 }

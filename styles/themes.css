@@ -20,6 +20,14 @@
   --gradient-lines-color: #000;
   --gradient-background-color-start: #007f0c;
   --gradient-background-color-end: #004306;
+
+  --button-text-color: var(--accent-color);
+  --heart-contour-color: var(--accent-color);
+  --heart-liked-contour-color: #ff0000;
+
+  --heart-sparks-color: #ff0000;
+  --heart-main-body-color: #ff0000;
+  --heart-core-color: #ff0000;
 }
 
 :root.theme-light {
@@ -38,6 +46,14 @@
   --gradient-lines-color: #d3d3d3;
   --gradient-background-color-start: #e7e7e7;
   --gradient-background-color-end: #1a1a1a;
+
+  --button-text-color: #fff;
+  --heart-contour-color: var(--accent-color);
+  --heart-liked-contour-color: #ff0000;
+
+  --heart-sparks-color: #ff0000;
+  --heart-main-body-color: #ff0000;
+  --heart-core-color: #ff0000;
 }
 
 @media (prefers-color-scheme: light) {
@@ -57,5 +73,14 @@
     --gradient-lines-color: #d3d3d3;
     --gradient-background-color-start: #e7e7e7;
     --gradient-background-color-end: #1a1a1a;
+
+    --button-text-color: #fff;
+    --heart-contour-color: var(--accent-color);
+    --heart-liked-contour-color: #ff0000;
+    --heart-sparks-color: #ff0000;
+
+    --heart-sparks-color: #ff0000;
+    --heart-main-body-color: #ff0000;
+    --heart-core-color: #ff0000;
   }
 }

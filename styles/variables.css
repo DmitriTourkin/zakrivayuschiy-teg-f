@@ -16,4 +16,12 @@
   --gradient-lines-color: #d3d3d3;
   --gradient-background-color-start: #e7e7e7;
   --gradient-background-color-end: #1a1a1a;
+
+  --button-text-color: #fff;
+
+  --heart-contour-color: #ff0000;
+  --heart-liked-contour-color: #ff0000;
+  --heart-sparks-color: #ff0000;
+  --heart-main-body-color: #ff0000;
+  --heart-core-color: #ff0000;
 }

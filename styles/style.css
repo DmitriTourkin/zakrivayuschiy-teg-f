@@ -208,6 +208,13 @@ main {
   0 -1px var(--post_watermark-stroke-color);
 }
 
+@media (width <= 375px) {
+  .post-meaning {
+    margin-inline-end: 13px;
+    margin-block-start: 25px;
+  }
+}
+
 @supports (-webkit-text-stroke: 1px var(--post_watermark-stroke-color)) {
   .post-meaning {
     -webkit-text-stroke: 1px var(--post_watermark-stroke-color);
@@ -325,6 +332,19 @@ main {
   min-block-size: 51px;
   width: 100%;
   margin-block-end: 103px;
+}
+
+@media (width <= 375px) {
+  .to-save__button {
+    flex-direction: column;
+    inline-size: 306px;
+    max-block-size: 80px;
+    padding-block-end: 15px;
+  }
+
+  .to_save-section {
+    margin-block-end: 100px;
+  }
 }
 
 /* SVG */

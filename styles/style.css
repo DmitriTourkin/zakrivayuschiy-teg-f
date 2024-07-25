@@ -250,11 +250,13 @@ main {
   width: 100%;
   background-color: var(--accent-color);
   color: var(--button-text-color);
+  fill: var(--button-text-color);
   overflow: hidden;
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.5s ease-in-out;
   transition: color 0.5 ease-in-out;
+  transition: fill 0.5 ease-in-out;
 }
 
 .button:hover::after{
@@ -318,6 +320,7 @@ main {
 }
 
 /* SVG */
+
 .like-icon {
   will-change: transform;
 }
@@ -403,29 +406,9 @@ main {
   align-items: center;
 }
 
-#floppy-disk {
-  width: 21px;
-  height: 21px;
-  transition: fill 0.3s ease;
-}
-
 .floppy-icon {
   width: 21px;
   height: 21px;
-  transition: fill 0.3s ease;
-}
-
-.to-save__floppy {
-  min-height: 40px;
-  min-width: 39px;
-  transform: scale(0.7);
-  mix-blend-mode: difference;
-  transition: mix-blend-mode 0.3s ease;
-}
-
-.button:hover .to-save__floppy {
-  z-index: 3;
-  fill: var(--button-text-color);
 }
 
 .dialog {
@@ -471,10 +454,30 @@ main {
   padding: 30px;
 }
 
-.floppy-icon-modal {
+.to-save__floppy {
+  min-height: 40px;
+  min-width: 39px;
+  transform: scale(0.7);
+  fill: var(--accent-color);
+}
+
+.button > .floppy-icon.to-save__floppy {
+  z-index: 3;
+  mix-blend-mode: difference;
+  fill: var(--button-text-color);
+}
+
+.button ~ .floppy-icon.to-save__floppy {
+  z-index: 3;
+  mix-blend-mode: difference;
+  fill: var(--button-text-color);
+}
+
+.floppy-icon.floppy-icon-modal {
   min-width: 39px;
   min-height: 40px;
   align-self: center;
+  fill: var(--accent-color);
 }
 
 .button-modal {

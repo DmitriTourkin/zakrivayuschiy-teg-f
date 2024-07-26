@@ -40,7 +40,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), 'Consolas';
   min-block-size: 527px; 
   block-size: 100vh;
 }
@@ -271,7 +271,7 @@ main {
   justify-content: center;
   align-items: center;
   border: 2px solid var(--accent-color);
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), 'Consolas';
   font-size: 14px;
   background-color: var(--background-color);
   transform-origin: left;
@@ -473,7 +473,7 @@ main {
   border: 2px solid var(--accent-color);
   padding: 0;
   overflow: hidden;
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), 'Consolas';
   font-weight: var(--main-text-font-weight);
   font-size: 14px;
   line-height: 21px;

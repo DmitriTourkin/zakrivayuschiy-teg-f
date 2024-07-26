@@ -17,7 +17,7 @@
 .page {
   position: relative;
   color: var(--accent-color);
-  font-family: Inter-Variable;
+  font-family: Inter;
   font-size: 18px;
   background-image: 
   repeating-linear-gradient(var(--gradient-lines-color) 0 2px, transparent 2px 4px),
@@ -28,6 +28,12 @@
   background-attachment: fixed;
   min-inline-size: 320px;
   min-block-size: 100dvb;
+}
+
+@supports (font-variation-settings: normal) {
+  .page {
+    font-family: Inter-Variable, Inter;
+  }
 }
 
 .header {

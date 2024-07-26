@@ -288,7 +288,9 @@ main {
   color: var(--button-text-color);
   fill: var(--button-text-color);
   background-color: var(--accent-color);
-  transition: transform 0.5s ease-in-out, color 0.5 ease-in-out, fill 0.5 ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: fill 0.5 ease-in-out;
+  transition: color 0.5 ease-in-out,;
   transform: scaleX(0);
   transform-origin: left;
 }

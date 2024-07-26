@@ -553,11 +553,11 @@ main {
 }
 
 .blur-filter {
-  filter: blur(0.6);
+  filter: blur(0.2);
 }
 
 .opacity-filter {
-  filter: opacity(0.2);
+  filter: opacity(0.7);
 }
 
 .grayscale-filter {

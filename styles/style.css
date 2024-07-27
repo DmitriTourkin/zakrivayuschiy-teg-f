@@ -393,6 +393,10 @@ button {
   fill: var(--heart-sparks-color);
 }
 
+.contour {
+  fill: var(--heart-contour-color);
+}
+
 .like-icon:hover .main-body {
   opacity: 1;
   transition-delay: 0.05s;

@@ -2,7 +2,7 @@
 
 :root {
   --accent-font: 'PressStart2P', fantasy, sans-serif; 
-  --main-font: 'Inter-Variable', Inter, Arial, Helvetica, sans-serif;
+  --main-font: 'Inter-Variable', Arial, Helvetica, sans-serif;
   --post-header-font-weight: 700;
   --main-text-font-weight: 400;
   --accent-color: #000;
@@ -13,7 +13,7 @@
   --gradient-background-color-start: #e7e7e7;
   --gradient-background-color-end: #1a1a1a;
   --button-text-color: #fff;
-  --heart-contour-color: #ff0000;
+  --heart-contour-color: #000;
   --heart-liked-contour-color: #ff0000;
   --heart-sparks-color: #ff0000;
   --heart-main-body-color: #ff0000;

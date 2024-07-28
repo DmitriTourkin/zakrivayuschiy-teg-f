@@ -38,23 +38,31 @@
   padding: 100px 0 97px 0;
 }
 
-.header-main-title {
+.header-logo-link {
+  text-decoration: none;
+}
+
+.header-logo-link:focus {
+  outline: none;
+}
+
+.header-main-logo {
   font-size: 49px;
   transition: font-size 0.3s ease-in-out;
 }
 
-.header-subtitle {
+.header-main-title {
   font-size: 14px;
   text-transform: uppercase;
   transition: font-size 0.3s ease-in-out;
 }
 
 @media (width > 530px) {
-  .header-main-title {
+  .header-main-logo {
     font-size: 65px;
   }
   
-  .header-subtitle {
+  .header-main-title {
     font-size: 23px;
   }
 }
@@ -206,7 +214,6 @@ main {
   font-variation-settings: 'wght' var(--post-header-font-weight);
   font-size: 18px;
   line-height: 21.78px;
-  letter-spacing: 0.2px;
 }
 
 .post-head-section {
@@ -359,6 +366,7 @@ button {
   max-inline-size: 335px;
   min-block-size: 51px;
   margin-block-start: 50px;
+  margin-inline-end: 17px;
 }
 
 @media (width <= 375px) {

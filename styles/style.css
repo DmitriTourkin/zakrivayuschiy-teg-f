@@ -490,7 +490,6 @@ button {
 @media (width <= 375px) {
   .dialog {
     min-inline-size: 341px;
-    min-block-size: 191px;
   }
 }
 
